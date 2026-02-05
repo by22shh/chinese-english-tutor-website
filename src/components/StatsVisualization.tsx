@@ -22,7 +22,7 @@ const stats = [
     display: "2",
     value: 100,
     color: "from-orange-500 to-amber-500",
-    description: "Бизнес-коммуникации"
+    description: "Деловая и общая коммуникация"
   },
   {
     label: "HSK",
@@ -115,10 +115,10 @@ function CircularProgress({ value, display, color, label, description, index }: 
 export default function StatsVisualization() {
   return (
     <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
-      {/* Mathematical decorations */}
+      {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>%</div>
-        <div className="absolute bottom-20 right-20 text-8xl font-serif text-orange-600 animate-pulse" style={{ animationDuration: '6s' }}>∞</div>
+        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>成</div>
+        <div className="absolute bottom-20 right-20 text-8xl font-serif text-orange-600 animate-pulse" style={{ animationDuration: '6s' }}>S</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -156,8 +156,8 @@ export default function StatsVisualization() {
                 <div className="text-slate-700 font-medium">Высшее образование</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-orange-600 mb-2">Бизнес</div>
-                <div className="text-slate-700 font-medium">Опыт работы с делегациями</div>
+                <div className="text-4xl font-bold text-orange-600 mb-2">Коммуникации</div>
+                <div className="text-slate-700 font-medium">Опыт деловой и общей практики</div>
               </div>
               <div>
                 <div className="text-4xl font-bold text-orange-600 mb-2">Аудирование</div>

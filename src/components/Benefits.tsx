@@ -17,8 +17,8 @@ const benefits = [
   },
   {
     icon: Target,
-    title: "Бизнес-среда и переговоры",
-    description: "Опыт работы с деловыми делегациями: знаю специфику современного бизнес-китайского.",
+    title: "Повышение уровня и переговоры",
+    description: "Помогаю прокачать общий уровень и при необходимости подготовиться к деловой коммуникации.",
   },
   {
     icon: Brain,
@@ -55,13 +55,13 @@ const benefits = [
 export default function Benefits() {
   return (
     <section className="py-24 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
-      {/* Mathematical background decorations */}
+      {/* Language background decorations */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-1/4 left-10 text-8xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>∞</div>
-        <div className="absolute bottom-1/4 right-10 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>Δ</div>
-        <div className="absolute top-10 right-1/3 text-7xl font-serif text-orange-600 opacity-20">+</div>
-        <div className="absolute bottom-10 left-1/3 text-6xl font-serif text-slate-800 opacity-30">÷</div>
-        <div className="absolute top-1/2 right-20 text-5xl font-serif text-amber-600 opacity-20">×</div>
+        <div className="absolute top-1/4 left-10 text-8xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>听</div>
+        <div className="absolute bottom-1/4 right-10 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>说</div>
+        <div className="absolute top-10 right-1/3 text-7xl font-serif text-orange-600 opacity-20">读</div>
+        <div className="absolute bottom-10 left-1/3 text-6xl font-serif text-slate-800 opacity-30">A</div>
+        <div className="absolute top-1/2 right-20 text-5xl font-serif text-amber-600 opacity-20">B</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

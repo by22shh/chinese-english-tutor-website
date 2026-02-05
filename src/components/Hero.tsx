@@ -17,15 +17,15 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-orange-50/30 to-amber-50/50">
-      {/* Mathematical Background Elements */}
+      {/* Language Background Elements */}
       <div className="absolute inset-0 overflow-hidden opacity-[0.07]">
         {/* Formulas */}
-        <div className="absolute top-20 left-10 text-6xl font-serif text-slate-800 rotate-12">∫</div>
-        <div className="absolute top-40 right-20 text-5xl font-serif text-slate-800 -rotate-6">π</div>
-        <div className="absolute bottom-40 left-20 text-7xl font-serif text-slate-800 rotate-45">√</div>
-        <div className="absolute bottom-20 right-40 text-6xl font-serif text-slate-800 -rotate-12">Σ</div>
-        <div className="absolute top-1/3 left-1/4 text-5xl font-serif text-slate-800">∞</div>
-        <div className="absolute top-2/3 right-1/3 text-6xl font-serif text-slate-800 rotate-6">Δ</div>
+        <div className="absolute top-20 left-10 text-6xl font-serif text-slate-800 rotate-12">汉</div>
+        <div className="absolute top-40 right-20 text-5xl font-serif text-slate-800 -rotate-6">E</div>
+        <div className="absolute bottom-40 left-20 text-7xl font-serif text-slate-800 rotate-45">语</div>
+        <div className="absolute bottom-20 right-40 text-6xl font-serif text-slate-800 -rotate-12">N</div>
+        <div className="absolute top-1/3 left-1/4 text-5xl font-serif text-slate-800">学</div>
+        <div className="absolute top-2/3 right-1/3 text-6xl font-serif text-slate-800 rotate-6">G</div>
 
         {/* Geometric shapes */}
         <div className="absolute top-1/4 right-1/4 w-32 h-32 border-4 border-slate-800 rotate-45 opacity-30" />
@@ -63,7 +63,7 @@ export default function Hero() {
               Репетитор по китайскому и английскому языкам
             </span>
             <br />
-            <span className="text-slate-800">для реального общения и переговоров</span>
+            <span className="text-slate-800">для реального общения и повышения общего уровня</span>
           </h1>
 
           {/* Subheading */}
@@ -71,7 +71,8 @@ export default function Hero() {
             mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             Индивидуальные занятия для улучшения живого языка, уверенного общения с иностранцами
-            и ведения переговоров. Помогаю начать с нуля и выстроить практику.
+            и повышения общего уровня. При необходимости — для переговоров и деловой лексики.
+            Помогаю начать с нуля и выстроить практику.
           </p>
 
           {/* Key points */}

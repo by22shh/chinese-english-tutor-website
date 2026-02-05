@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     question: "Для кого подойдут занятия?",
-    answer: "Для начинающих и продолжающих: помогаю начать с нуля, улучшить разговорный язык, подготовиться к деловой коммуникации и HSK 1–4."
+    answer: "Для начинающих и продолжающих: помогаю начать с нуля, повысить общий уровень, улучшить разговорный язык и при желании подготовиться к деловой коммуникации и HSK 1–4."
   },
   {
     question: "Сколько длится одно занятие?",
@@ -47,11 +47,11 @@ export default function FAQ() {
 
   return (
     <section className="py-24 bg-white relative overflow-hidden">
-      {/* Mathematical decorations */}
+      {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <div className="absolute top-10 right-10 text-9xl font-serif text-slate-800 rotate-12">?</div>
-        <div className="absolute bottom-10 left-10 text-8xl font-serif text-orange-600 -rotate-12">!</div>
-        <div className="absolute top-1/2 left-1/4 text-6xl font-serif text-slate-800">≈</div>
+        <div className="absolute top-10 right-10 text-9xl font-serif text-slate-800 rotate-12">问</div>
+        <div className="absolute bottom-10 left-10 text-8xl font-serif text-orange-600 -rotate-12">答</div>
+        <div className="absolute top-1/2 left-1/4 text-6xl font-serif text-slate-800">Q</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

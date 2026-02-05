@@ -10,12 +10,12 @@ export default function Pricing() {
 
   return (
     <section className="py-24 bg-white relative overflow-hidden">
-      {/* Mathematical background */}
+      {/* Language background */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>π</div>
-        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>√</div>
-        <div className="absolute top-1/3 left-1/4 text-7xl font-serif text-orange-600 opacity-20">∑</div>
-        <div className="absolute bottom-1/3 right-1/4 text-6xl font-serif text-slate-800 opacity-30">∫</div>
+        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>价</div>
+        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>课</div>
+        <div className="absolute top-1/3 left-1/4 text-7xl font-serif text-orange-600 opacity-20">P</div>
+        <div className="absolute bottom-1/3 right-1/4 text-6xl font-serif text-slate-800 opacity-30">R</div>
         <div className="absolute top-2/3 left-1/2 w-20 h-20 border-4 border-slate-800 opacity-10 rounded-full" />
       </div>
 
@@ -120,7 +120,7 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
-                  <span className="text-white">Деловая лексика и переговоры</span>
+                  <span className="text-white">Разговорная практика и общий уровень, при необходимости — переговоры</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />

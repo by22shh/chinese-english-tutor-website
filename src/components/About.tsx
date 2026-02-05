@@ -9,12 +9,12 @@ export default function About() {
 
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
-      {/* Mathematical background decorations */}
+      {/* Language background decorations */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-10 right-10 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '3s' }}>∫</div>
-        <div className="absolute bottom-20 left-10 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '4s' }}>∑</div>
-        <div className="absolute top-1/2 left-20 text-6xl font-serif text-orange-600 opacity-20">x²</div>
-        <div className="absolute top-1/3 right-1/4 text-5xl font-serif text-slate-800">≈</div>
+        <div className="absolute top-10 right-10 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '3s' }}>师</div>
+        <div className="absolute bottom-20 left-10 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '4s' }}>译</div>
+        <div className="absolute top-1/2 left-20 text-6xl font-serif text-orange-600 opacity-20">A</div>
+        <div className="absolute top-1/3 right-1/4 text-5xl font-serif text-slate-800">E</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -81,7 +81,7 @@ export default function About() {
                 <p>
                   Я — <strong className="text-slate-800">Егинян Артур</strong>, практикующий переводчик и преподаватель
                   китайского и английского языков. Преподаю уже 6 лет — от нулевого уровня
-                  до уверенного общения и деловой коммуникации.
+                  до уверенного общения и устойчивого общего уровня, при необходимости — деловой коммуникации.
                 </p>
                 <p>
                   2 года работал переводчиком-сопровождающим в АО «Группа «Илим», где обеспечивал
@@ -112,7 +112,7 @@ export default function About() {
                   <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-emerald-200/20 to-transparent rounded-bl-full" />
                   <Star className="w-8 h-8 text-emerald-600 mb-3 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                   <h4 className="font-semibold text-slate-800 mb-1">Переводчик</h4>
-                  <p className="text-sm text-slate-600">Бизнес-коммуникации</p>
+                  <p className="text-sm text-slate-600">Деловые и общие коммуникации</p>
                 </div>
                 <div className="bg-gradient-to-br from-blue-50 via-white to-sky-50 rounded-xl p-6 border-2 border-blue-100 hover:border-blue-300 shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 group relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-200/20 to-transparent rounded-bl-full" />

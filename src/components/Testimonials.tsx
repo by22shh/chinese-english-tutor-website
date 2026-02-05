@@ -51,13 +51,13 @@ export default function Testimonials() {
 
   return (
     <section className="py-24 bg-slate-50 relative overflow-hidden">
-      {/* Mathematical decorations */}
+      {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>π</div>
-        <div className="absolute bottom-20 right-20 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>√</div>
-        <div className="absolute top-1/2 right-10 text-7xl font-serif text-orange-600 opacity-20 rotate-6">∞</div>
-        <div className="absolute bottom-1/3 left-1/4 text-6xl font-serif text-slate-800 opacity-30">≠</div>
-        <div className="absolute top-1/4 right-1/3 text-5xl font-serif text-amber-600 opacity-20">∑</div>
+        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>评</div>
+        <div className="absolute bottom-20 right-20 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>赞</div>
+        <div className="absolute top-1/2 right-10 text-7xl font-serif text-orange-600 opacity-20 rotate-6">言</div>
+        <div className="absolute bottom-1/3 left-1/4 text-6xl font-serif text-slate-800 opacity-30">T</div>
+        <div className="absolute top-1/4 right-1/3 text-5xl font-serif text-amber-600 opacity-20">E</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
