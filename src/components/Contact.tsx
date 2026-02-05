@@ -8,10 +8,10 @@ export default function Contact() {
     <section className="py-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden">
       {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.08] text-white">
-        <div className="absolute top-20 left-10 text-8xl font-serif animate-pulse" style={{ animationDuration: '6s' }}>联</div>
-        <div className="absolute bottom-20 right-10 text-7xl font-serif animate-pulse" style={{ animationDuration: '5s' }}>系</div>
-        <div className="absolute top-1/3 right-1/4 text-6xl font-serif opacity-40">C</div>
-        <div className="absolute bottom-1/3 left-1/4 text-6xl font-serif opacity-40">O</div>
+        <div className="absolute top-20 left-10 text-8xl font-serif animate-pulse" style={{ animationDuration: '6s' }}>成功</div>
+        <div className="absolute bottom-20 right-10 text-7xl font-serif animate-pulse" style={{ animationDuration: '5s' }}>财</div>
+        <div className="absolute top-1/3 right-1/4 text-6xl font-serif opacity-40">爱</div>
+        <div className="absolute bottom-1/3 left-1/4 text-6xl font-serif opacity-40">成就</div>
       </div>
 
       {/* Background decoration */}

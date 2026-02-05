@@ -46,8 +46,8 @@ export default function LearningProcess() {
     <section className="py-24 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
       {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>步</div>
-        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>L</div>
+        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>成功</div>
+        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>成就</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

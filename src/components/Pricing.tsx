@@ -12,10 +12,10 @@ export default function Pricing() {
     <section className="py-24 bg-white relative overflow-hidden">
       {/* Language background */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>价</div>
-        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>课</div>
-        <div className="absolute top-1/3 left-1/4 text-7xl font-serif text-orange-600 opacity-20">P</div>
-        <div className="absolute bottom-1/3 right-1/4 text-6xl font-serif text-slate-800 opacity-30">R</div>
+        <div className="absolute top-20 right-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>财</div>
+        <div className="absolute bottom-20 left-20 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>生意</div>
+        <div className="absolute top-1/3 left-1/4 text-7xl font-serif text-orange-600 opacity-20">成就</div>
+        <div className="absolute bottom-1/3 right-1/4 text-6xl font-serif text-slate-800 opacity-30">爱</div>
         <div className="absolute top-2/3 left-1/2 w-20 h-20 border-4 border-slate-800 opacity-10 rounded-full" />
       </div>
 

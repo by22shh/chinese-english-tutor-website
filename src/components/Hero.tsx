@@ -20,12 +20,12 @@ export default function Hero() {
       {/* Language Background Elements */}
       <div className="absolute inset-0 overflow-hidden opacity-[0.07]">
         {/* Formulas */}
-        <div className="absolute top-20 left-10 text-6xl font-serif text-slate-800 rotate-12">汉</div>
-        <div className="absolute top-40 right-20 text-5xl font-serif text-slate-800 -rotate-6">E</div>
-        <div className="absolute bottom-40 left-20 text-7xl font-serif text-slate-800 rotate-45">语</div>
-        <div className="absolute bottom-20 right-40 text-6xl font-serif text-slate-800 -rotate-12">N</div>
-        <div className="absolute top-1/3 left-1/4 text-5xl font-serif text-slate-800">学</div>
-        <div className="absolute top-2/3 right-1/3 text-6xl font-serif text-slate-800 rotate-6">G</div>
+        <div className="absolute top-20 left-10 text-6xl font-serif text-slate-800 rotate-12">成功</div>
+        <div className="absolute top-40 right-20 text-5xl font-serif text-slate-800 -rotate-6">爱</div>
+        <div className="absolute bottom-40 left-20 text-7xl font-serif text-slate-800 rotate-45">成就</div>
+        <div className="absolute bottom-20 right-40 text-6xl font-serif text-slate-800 -rotate-12">财</div>
+        <div className="absolute top-1/3 left-1/4 text-5xl font-serif text-slate-800">生意</div>
+        <div className="absolute top-2/3 right-1/3 text-6xl font-serif text-slate-800 rotate-6">成功</div>
 
         {/* Geometric shapes */}
         <div className="absolute top-1/4 right-1/4 w-32 h-32 border-4 border-slate-800 rotate-45 opacity-30" />

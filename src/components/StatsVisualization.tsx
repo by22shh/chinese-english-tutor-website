@@ -117,8 +117,8 @@ export default function StatsVisualization() {
     <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
       {/* Language decorations */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>成</div>
-        <div className="absolute bottom-20 right-20 text-8xl font-serif text-orange-600 animate-pulse" style={{ animationDuration: '6s' }}>S</div>
+        <div className="absolute top-20 left-20 text-9xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>成功</div>
+        <div className="absolute bottom-20 right-20 text-8xl font-serif text-orange-600 animate-pulse" style={{ animationDuration: '6s' }}>成就</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

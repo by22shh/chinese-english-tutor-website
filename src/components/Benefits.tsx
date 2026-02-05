@@ -57,11 +57,11 @@ export default function Benefits() {
     <section className="py-24 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
       {/* Language background decorations */}
       <div className="absolute inset-0 opacity-[0.05]">
-        <div className="absolute top-1/4 left-10 text-8xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>听</div>
-        <div className="absolute bottom-1/4 right-10 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>说</div>
-        <div className="absolute top-10 right-1/3 text-7xl font-serif text-orange-600 opacity-20">读</div>
-        <div className="absolute bottom-10 left-1/3 text-6xl font-serif text-slate-800 opacity-30">A</div>
-        <div className="absolute top-1/2 right-20 text-5xl font-serif text-amber-600 opacity-20">B</div>
+        <div className="absolute top-1/4 left-10 text-8xl font-serif text-slate-800 rotate-12 animate-pulse" style={{ animationDuration: '5s' }}>成功</div>
+        <div className="absolute bottom-1/4 right-10 text-8xl font-serif text-slate-800 -rotate-12 animate-pulse" style={{ animationDuration: '4s' }}>财</div>
+        <div className="absolute top-10 right-1/3 text-7xl font-serif text-orange-600 opacity-20">生意</div>
+        <div className="absolute bottom-10 left-1/3 text-6xl font-serif text-slate-800 opacity-30">爱</div>
+        <div className="absolute top-1/2 right-20 text-5xl font-serif text-amber-600 opacity-20">成就</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

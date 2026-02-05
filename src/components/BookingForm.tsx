@@ -52,10 +52,10 @@ export default function BookingForm() {
     <section id="booking" className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
       {/* Language background decorations */}
       <div className="absolute inset-0 opacity-[0.04]">
-        <div className="absolute top-10 right-10 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>名</div>
-        <div className="absolute bottom-10 left-10 text-7xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>信</div>
-        <div className="absolute top-1/2 left-1/4 text-6xl font-serif text-orange-600 opacity-30">F</div>
-        <div className="absolute bottom-1/3 right-1/4 text-5xl font-serif text-slate-800 opacity-30">M</div>
+        <div className="absolute top-10 right-10 text-8xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '5s' }}>财</div>
+        <div className="absolute bottom-10 left-10 text-7xl font-serif text-slate-800 animate-pulse" style={{ animationDuration: '6s' }}>爱</div>
+        <div className="absolute top-1/2 left-1/4 text-6xl font-serif text-orange-600 opacity-30">成功</div>
+        <div className="absolute bottom-1/3 right-1/4 text-5xl font-serif text-slate-800 opacity-30">成就</div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
